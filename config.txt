@@ -1,0 +1,13 @@
+-- Configuração do GIT
+git config --global user.name GalloJunior
+git config --global user.email gallojunior@gmail.com
+
+-- Criar o projeto
+npx create-expo-app@latest GMusic --template blank
+cd GMusic
+
+-- Pacotes
+npx expo install react-dom react-native-web @expo/metro-runtime
+npx expo install @react-native-community/slider
+npx expo install expo-av
+
